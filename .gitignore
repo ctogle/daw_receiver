@@ -1,0 +1,6 @@
+
+
+*.swp
+src/build/*
+src/dist/*
+
