@@ -28,7 +28,8 @@ core_modules = [
 def ignore_res(f):
 	#if f.startswith('__') or f.startswith('_.'): return True
 	#else: return False
-	if f.endswith('daw_receiver_settings.txt'): return False
+	if f.endswith('.txt'): return False
+	elif f.endswith('.log'): return False
 	else: return True
 
 res_dir = 'modular_dr/resources/'
